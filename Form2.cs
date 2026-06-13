@@ -17,5 +17,15 @@ namespace pantest
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void Control_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
