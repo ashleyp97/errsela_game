@@ -29,3 +29,4 @@ C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\refi
 C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.pdb
 C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.genruntimeconfig.cache
 C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\ref\pantest.dll
+C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.Form2.resources
