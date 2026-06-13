@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
@@ -50,12 +49,12 @@
             textBox3 = new TextBox();
             label2 = new Label();
             Control = new Label();
+            label8 = new Label();
             pictureBox2 = new PictureBox();
             toolStripContainer1 = new ToolStripContainer();
             button6 = new Button();
             timer1 = new System.Windows.Forms.Timer(components);
             button9 = new Button();
-            label8 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -69,6 +68,7 @@
             // 
             // panel1
             // 
+            panel1.BackColor = Color.Gold;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(label1);
             panel1.Location = new Point(99, 44);
@@ -91,6 +91,7 @@
             // 
             // panel2
             // 
+            panel2.BackColor = Color.WhiteSmoke;
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(label5);
             panel2.Location = new Point(99, 144);
@@ -102,7 +103,7 @@
             // 
             // label5
             // 
-            label5.BackColor = Color.Lavender;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(13, 16);
             label5.Margin = new Padding(2, 0, 2, 0);
@@ -114,6 +115,7 @@
             // 
             // button2
             // 
+            button2.BackColor = Color.Gold;
             button2.Cursor = Cursors.SizeNESW;
             button2.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             button2.Location = new Point(116, 442);
@@ -122,11 +124,12 @@
             button2.Size = new Size(247, 46);
             button2.TabIndex = 2;
             button2.Text = "BACKWARDS";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button1
             // 
+            button1.BackColor = Color.Gold;
             button1.Cursor = Cursors.SizeNESW;
             button1.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             button1.Location = new Point(116, 367);
@@ -135,11 +138,12 @@
             button1.Size = new Size(247, 46);
             button1.TabIndex = 1;
             button1.Text = "FORWARD";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button3
             // 
+            button3.BackColor = Color.Gold;
             button3.Cursor = Cursors.SizeNESW;
             button3.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             button3.Location = new Point(116, 513);
@@ -148,11 +152,12 @@
             button3.Size = new Size(247, 46);
             button3.TabIndex = 3;
             button3.Text = "LEFT";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.BackColor = Color.Gold;
             button4.Cursor = Cursors.SizeNESW;
             button4.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
             button4.Location = new Point(116, 587);
@@ -161,11 +166,12 @@
             button4.Size = new Size(247, 46);
             button4.TabIndex = 3;
             button4.Text = "RIGHT";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // panel3
             // 
+            panel3.BackColor = Color.WhiteSmoke;
             panel3.Controls.Add(label7);
             panel3.Controls.Add(button8);
             panel3.Controls.Add(button7);
@@ -180,38 +186,41 @@
             // 
             // label7
             // 
-            label7.BackColor = Color.Lavender;
+            label7.BackColor = Color.WhiteSmoke;
+            label7.BorderStyle = BorderStyle.FixedSingle;
             label7.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.Location = new Point(1712, 110);
             label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(130, 30);
+            label7.Size = new Size(130, 32);
             label7.TabIndex = 5;
             label7.Text = "Timer";
             label7.TextAlign = ContentAlignment.TopCenter;
             // 
             // button8
             // 
-            button8.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.Location = new Point(1786, 209);
+            button8.BackColor = Color.Gold;
+            button8.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(1800, 209);
             button8.Margin = new Padding(2);
             button8.Name = "button8";
-            button8.Size = new Size(142, 32);
+            button8.Size = new Size(134, 47);
             button8.TabIndex = 4;
             button8.Text = "Start";
-            button8.UseVisualStyleBackColor = true;
+            button8.UseVisualStyleBackColor = false;
             button8.Click += button8_Click;
             // 
             // button7
             // 
-            button7.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.Location = new Point(1630, 209);
+            button7.BackColor = Color.Gold;
+            button7.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button7.Location = new Point(1638, 209);
             button7.Margin = new Padding(2);
             button7.Name = "button7";
-            button7.Size = new Size(142, 32);
+            button7.Size = new Size(134, 47);
             button7.TabIndex = 3;
             button7.Text = "Stop";
-            button7.UseVisualStyleBackColor = true;
+            button7.UseVisualStyleBackColor = false;
             button7.Click += button7_Click;
             // 
             // label4
@@ -258,7 +267,8 @@
             // 
             // label6
             // 
-            label6.BackColor = Color.Lavender;
+            label6.BackColor = Color.WhiteSmoke;
+            label6.BorderStyle = BorderStyle.FixedSingle;
             label6.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(56, 246);
             label6.Margin = new Padding(2, 0, 2, 0);
@@ -280,6 +290,7 @@
             // 
             // button5
             // 
+            button5.BackColor = Color.Gold;
             button5.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.Location = new Point(370, 105);
             button5.Margin = new Padding(2);
@@ -287,7 +298,7 @@
             button5.Size = new Size(142, 38);
             button5.TabIndex = 6;
             button5.Text = "Submit";
-            button5.UseVisualStyleBackColor = true;
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // textBox3
@@ -324,8 +335,20 @@
             Control.TabIndex = 3;
             Control.Text = "Command Center";
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 20F);
+            label8.Location = new Point(291, 376);
+            label8.Name = "label8";
+            label8.Size = new Size(522, 37);
+            label8.TabIndex = 1;
+            label8.Text = "Live Camera Feed - Future Implementation";
+            label8.Click += label8_Click;
+            // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = Color.WhiteSmoke;
             pictureBox2.Location = new Point(2, 51);
             pictureBox2.Margin = new Padding(2);
             pictureBox2.Name = "pictureBox2";
@@ -350,14 +373,15 @@
             // 
             // button6
             // 
-            button6.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button6.BackColor = Color.Gold;
+            button6.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.Location = new Point(1295, 175);
             button6.Margin = new Padding(2);
             button6.Name = "button6";
             button6.Size = new Size(254, 47);
             button6.TabIndex = 4;
             button6.Text = "BEGIN";
-            button6.UseVisualStyleBackColor = true;
+            button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
             // timer1
@@ -367,32 +391,22 @@
             // 
             // button9
             // 
-            button9.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button9.BackColor = Color.Gold;
+            button9.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button9.Location = new Point(1587, 175);
             button9.Margin = new Padding(2);
             button9.Name = "button9";
             button9.Size = new Size(254, 47);
             button9.TabIndex = 5;
             button9.Text = "FINISH";
-            button9.UseVisualStyleBackColor = true;
+            button9.UseVisualStyleBackColor = false;
             button9.Click += button9_Click;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 20F);
-            label8.Location = new Point(291, 376);
-            label8.Name = "label8";
-            label8.Size = new Size(522, 37);
-            label8.TabIndex = 1;
-            label8.Text = "Live Camera Feed - Future Implementation";
-            label8.Click += label8_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.MidnightBlue;
             ClientSize = new Size(2156, 1031);
             Controls.Add(button9);
             Controls.Add(button6);
