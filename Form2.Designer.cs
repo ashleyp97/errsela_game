@@ -30,18 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             splitContainer1 = new SplitContainer();
+            panel1 = new Panel();
+            label1 = new Label();
             pictureBox2 = new PictureBox();
             Control = new Label();
             pictureBox1 = new PictureBox();
-            panel1 = new Panel();
-            label1 = new Label();
+            label2 = new Label();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -53,6 +59,8 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.WhiteSmoke;
+            splitContainer1.Panel1.Controls.Add(panel3);
+            splitContainer1.Panel1.Controls.Add(panel2);
             splitContainer1.Panel1.Controls.Add(panel1);
             splitContainer1.Panel1.Controls.Add(pictureBox2);
             splitContainer1.Panel1.Controls.Add(Control);
@@ -63,6 +71,27 @@
             splitContainer1.Size = new Size(2161, 899);
             splitContainer1.SplitterDistance = 719;
             splitContainer1.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(38, 103);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(642, 144);
+            panel1.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            label1.ForeColor = Color.MidnightBlue;
+            label1.Location = new Point(19, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(130, 37);
+            label1.TabIndex = 7;
+            label1.Text = "The Goal";
+            label1.Click += label1_Click;
             // 
             // pictureBox2
             // 
@@ -97,22 +126,46 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // panel1
+            // label2
             // 
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(38, 103);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(642, 116);
-            panel1.TabIndex = 6;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            label2.ForeColor = Color.MidnightBlue;
+            label2.Location = new Point(19, 14);
+            label2.Name = "label2";
+            label2.Size = new Size(177, 37);
+            label2.TabIndex = 7;
+            label2.Text = "How To Play";
             // 
-            // label1
+            // panel2
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(19, 14);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 7;
-            label1.Text = "label1";
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(label2);
+            panel2.Location = new Point(38, 290);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(382, 367);
+            panel2.TabIndex = 7;
+            // 
+            // panel3
+            // 
+            panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(label3);
+            panel3.Location = new Point(481, 290);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(199, 367);
+            panel3.TabIndex = 8;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            label3.ForeColor = Color.MidnightBlue;
+            label3.Location = new Point(27, 14);
+            label3.Name = "label3";
+            label3.Size = new Size(148, 37);
+            label3.TabIndex = 7;
+            label3.Text = "Directions";
+            label3.Click += label3_Click;
             // 
             // Form2
             // 
@@ -129,10 +182,14 @@
             splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -144,5 +201,9 @@
         private PictureBox pictureBox2;
         private Panel panel1;
         private Label label1;
+        private Panel panel3;
+        private Label label3;
+        private Panel panel2;
+        private Label label2;
     }
 }
