@@ -35,7 +35,6 @@
             panel2 = new Panel();
             label2 = new Label();
             panel1 = new Panel();
-            label1 = new Label();
             pictureBox2 = new PictureBox();
             Control = new Label();
             pictureBox1 = new PictureBox();
@@ -102,11 +101,12 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BorderStyle = BorderStyle.FixedSingle;
             label3.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             label3.ForeColor = Color.MidnightBlue;
             label3.Location = new Point(27, 14);
             label3.Name = "label3";
-            label3.Size = new Size(148, 37);
+            label3.Size = new Size(150, 39);
             label3.TabIndex = 7;
             label3.Text = "Directions";
             label3.Click += label3_Click;
@@ -137,24 +137,10 @@
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(label1);
             panel1.Location = new Point(38, 103);
             panel1.Name = "panel1";
             panel1.Size = new Size(642, 144);
             panel1.TabIndex = 6;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BorderStyle = BorderStyle.FixedSingle;
-            label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.ForeColor = Color.MidnightBlue;
-            label1.Location = new Point(19, 14);
-            label1.Name = "label1";
-            label1.Size = new Size(132, 39);
-            label1.TabIndex = 7;
-            label1.Text = "The Goal";
-            label1.Click += label1_Click;
             // 
             // pictureBox2
             // 
@@ -269,12 +255,12 @@
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 14F);
-            textBox2.Location = new Point(157, 14);
+            textBox2.Location = new Point(19, 25);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(443, 124);
+            textBox2.Size = new Size(597, 94);
             textBox2.TabIndex = 9;
-            textBox2.Text = "Help E.R.R.S.E.L.A deliver all three packages(Package A, Package B, and Package C)\r\nbefore time runs out only using the directions Forward, Backwards, Left, and Right. \r\n";
+            textBox2.Text = "Help E.R.R.S.E.L.A deliver all three packages (Package A, B, and C)\r\nonly using the directions Forward, Backwards, Left, and Right before\r\ntime runs out.\r\n";
             // 
             // Form2
             // 
@@ -313,7 +299,6 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Panel panel1;
-        private Label label1;
         private Panel panel3;
         private Label label3;
         private Panel panel2;
