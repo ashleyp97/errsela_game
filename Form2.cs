@@ -25,7 +25,7 @@ namespace pantest
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            button1.Focus();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -50,7 +50,9 @@ namespace pantest
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form1 mainForm = new Form1();
+            mainForm.Show();
+            this.Hide();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -59,6 +61,11 @@ namespace pantest
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

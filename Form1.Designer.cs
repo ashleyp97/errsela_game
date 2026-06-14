@@ -68,23 +68,23 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Gold;
+            panel1.BackColor = Color.WhiteSmoke;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(label1);
             panel1.Location = new Point(99, 44);
             panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(638, 86);
+            panel1.Size = new Size(711, 86);
             panel1.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Impact", 40F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(13, 8);
+            label1.Font = new Font("Segoe UI", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(3, 13);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(615, 66);
+            label1.Size = new Size(704, 71);
             label1.TabIndex = 0;
             label1.Text = "ERRSELA's Delivery Service";
             label1.Click += label1_Click_1;
@@ -104,13 +104,13 @@
             // label5
             // 
             label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(13, 16);
             label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
             label5.Size = new Size(1084, 61);
             label5.TabIndex = 5;
-            label5.Text = "Help ERRSELA deliver all her packages to the correct spot. Answer a math problem correctly and she'll move. Quick before she runs out of time! Hit Begin to start.";
+            label5.Text = "Help ERRSELA deliver all her packages to the correct spot. Answer a math problem correctly and she'll move. Quick before she runs out of time! Hit Begin to start and the timer will start!";
             label5.Click += label5_Click;
             // 
             // button2
