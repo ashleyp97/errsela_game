@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pantest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc154c48f031bc84945aa8613f0f8678f46aa9ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+669bdb5ace167254bdb0f401d709e7be5a50cd8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("pantest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pantest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
