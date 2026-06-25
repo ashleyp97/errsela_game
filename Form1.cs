@@ -84,7 +84,7 @@ namespace pantest
 
             //answer equals num2 / num1
             correct = num1 / num2;
-            label2.Text = $"What is {num1} ÷ {num2}?";
+            label2.Text = $"What is {num1} Ã· {num2}?";
             textBox3.Text = "";
             button4.Enabled = false;
             button5.Enabled = true;
@@ -253,6 +253,14 @@ namespace pantest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            label2.Size = new System.Drawing.Size(480, 40);
+            label2.MaximumSize = new System.Drawing.Size(500, 0);
+            label2.AutoSize = false;
+            label2.Text = "Click a direction to get a question!";
+            label2.TextAlign = ContentAlignment.MiddleLeft;
+            label2.ForeColor = System.Drawing.Color.Black;
+            label2.BackColor = System.Drawing.Color.WhiteSmoke;
             label4.Text = "00:00";
             button1.Enabled = false;
             button2.Enabled = false;
