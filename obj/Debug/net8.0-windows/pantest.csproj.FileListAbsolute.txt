@@ -31,3 +31,36 @@ C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pant
 C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\ref\pantest.dll
 C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.Form2.resources
 C:\Users\ashle\source\repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.Properties.Resources.resources
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\pantest.exe
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\pantest.deps.json
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\pantest.runtimeconfig.json
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\pantest.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\pantest.pdb
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\OpenCvSharp.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\OpenCvSharp.Extensions.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\System.Private.Windows.GdiPlus.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.csproj.AssemblyReference.cache
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.csproj.ResolveComReference.cache
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.Form1.resources
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.Form2.resources
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.Properties.Resources.resources
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.csproj.GenerateResource.cache
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.AssemblyInfoInputs.cache
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.AssemblyInfo.cs
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.csproj.CoreCompileInputs.cache
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.sourcelink.json
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.csproj.CopyComplete
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\refint\pantest.dll
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.pdb
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\pantest.genruntimeconfig.cache
+C:\Users\ETIC Administrator\Source\Repos\ashleyp97\errsela_game\obj\Debug\net8.0-windows\ref\pantest.dll
