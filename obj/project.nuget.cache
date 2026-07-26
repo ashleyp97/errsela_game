@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1yLdKKz7xaY=",
+  "dgSpecHash": "g/1ZxmWkhLLqwpMErlaM6K7INCfUOd/RUAGsC/rXwu6d4PtJG7WzYbQP0slHzmjhPqQ5D7DZVDoIpDg4JwAqJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ashle\\source\\repos\\ashleyp97\\errsela_game\\pantest.csproj",
+  "projectFilePath": "C:\\Users\\ETIC Administrator\\Source\\Repos\\ashleyp97\\errsela_game\\pantest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ashle\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.3\\microsoft.win32.systemevents.10.0.3.nupkg.sha512",
-    "C:\\Users\\ashle\\.nuget\\packages\\opencvsharp4\\4.13.0.20260302\\opencvsharp4.4.13.0.20260302.nupkg.sha512",
-    "C:\\Users\\ashle\\.nuget\\packages\\opencvsharp4.extensions\\4.13.0.20260302\\opencvsharp4.extensions.4.13.0.20260302.nupkg.sha512",
-    "C:\\Users\\ashle\\.nuget\\packages\\system.drawing.common\\10.0.3\\system.drawing.common.10.0.3.nupkg.sha512",
-    "C:\\Users\\ashle\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512"
+    "C:\\Users\\ETIC Administrator\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.3\\microsoft.win32.systemevents.10.0.3.nupkg.sha512",
+    "C:\\Users\\ETIC Administrator\\.nuget\\packages\\opencvsharp4\\4.13.0.20260302\\opencvsharp4.4.13.0.20260302.nupkg.sha512",
+    "C:\\Users\\ETIC Administrator\\.nuget\\packages\\opencvsharp4.extensions\\4.13.0.20260302\\opencvsharp4.extensions.4.13.0.20260302.nupkg.sha512",
+    "C:\\Users\\ETIC Administrator\\.nuget\\packages\\system.drawing.common\\10.0.3\\system.drawing.common.10.0.3.nupkg.sha512",
+    "C:\\Users\\ETIC Administrator\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512"
   ],
   "logs": []
 }

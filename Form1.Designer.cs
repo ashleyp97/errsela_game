@@ -314,15 +314,17 @@
             // label2
             // 
             label2.BorderStyle = BorderStyle.FixedSingle;
-            label2.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(30, 79);
-            label2.Margin = new Padding(2, 0, 2, 0);
-            label2.MaximumSize = new Size(211, 2);
-            label2.Name = "label2";
-            label2.Size = new Size(211, 2);
-            label2.TabIndex = 4;
-            label2.Text = "Question box";
-            label2.Click += label1_Click_1;
+			label2.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label2.Location = new Point(30, 55);
+			label2.Margin = new Padding(2, 0, 2, 0);
+			label2.MaximumSize = new Size(500, 0);
+			label2.Name = "label2";
+			label2.Size = new Size(480, 40);
+			label2.AutoSize = false;
+			label2.TabIndex = 4;
+			label2.Text = "Click a direction to get a question!";
+			label2.TextAlign = ContentAlignment.MiddleLeft;
+			label2.Click += label1_Click_1;
             // 
             // Control
             // 

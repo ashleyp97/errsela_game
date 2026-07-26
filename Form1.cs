@@ -253,6 +253,17 @@ namespace pantest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label2.Size = new System.Drawing.Size(800, 50);
+            label2.MaximumSize = new System.Drawing.Size(0, 0);
+            label2.AutoSize = false;
+            label2.Text = "Click Begin at the top to start then a direction";
+            label2.Font = new System.Drawing.Font("Segoe UI", 14F);
+            label2.ForeColor = System.Drawing.Color.Black;
+            label2.BackColor = System.Drawing.Color.WhiteSmoke;
+            label2.Location = new System.Drawing.Point(55, 165);
+            label2.Visible = true;
+            label2.BringToFront();
+
             label4.Text = "00:00";
             button1.Enabled = false;
             button2.Enabled = false;
@@ -261,7 +272,6 @@ namespace pantest
             button5.Enabled = false;
             button7.Enabled = false;
             button8.Enabled = false;
-
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
