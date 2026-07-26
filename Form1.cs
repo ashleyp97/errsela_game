@@ -23,7 +23,7 @@ namespace pantest
         public Form1()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+            //this.WindowState = FormWindowState.Maximized;
         }
 
         private void Addition_generate_problem()

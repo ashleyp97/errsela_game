@@ -380,7 +380,7 @@
             button6.Name = "button6";
             button6.Size = new Size(254, 47);
             button6.TabIndex = 4;
-            button6.Text = "BEGIN";
+            button6.Text = "START";
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
